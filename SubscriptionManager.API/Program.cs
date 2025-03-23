@@ -1,5 +1,6 @@
 // API/Program.cs
 using Microsoft.Extensions.Options;
+using MongoDB.Driver;
 using subscription_Domain.Repositories;
 using SubscriptionManager.Infrastructure;
 using SubscriptionManager.Infrastructure.Data;

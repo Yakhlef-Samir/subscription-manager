@@ -9,3 +9,4 @@ C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Do
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\refint\SubscriptionManager.Domain.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\SubscriptionManager.Domain.pdb
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\ref\SubscriptionManager.Domain.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\SubscriptionManager.Domain.sourcelink.json

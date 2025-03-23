@@ -13,3 +13,4 @@ C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Ap
 C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\refint\subscriptionManager-Application.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\subscriptionManager-Application.pdb
 C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\ref\subscriptionManager-Application.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\subscriptionManager-Application.sourcelink.json

@@ -2,6 +2,7 @@
 using MongoDB.Driver;
 using subscription_Domain.Entities;
 using subscription_Domain.Repositories;
+using SubscriptionManager.Infrastructure.Data;
 
 namespace SubscriptionManager.Infrastructure.Repository;
 
@@ -10,9 +11,9 @@ public class UserRepository : IUserRepository
     private readonly IMongoCollection<User> _userCollection;
     private readonly FilterDefinitionBuilder<User> _filterBuilder = Builders<User>.Filter;
 
-    public UserRepository(IMongoDatabase mongoDatabase, IOptions<MongoSettings> settings)
+    public UserRepository(MongoDbContext context)
     {
-        _userCollection = mongoDatabase.GetCollection<User>(settings.Value.UsersCollectionName);
+        _userCollection = context.Users;
     }
 
     public async Task<User> GetByIdAsync(Guid id)

@@ -49,3 +49,4 @@ C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.AP
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.API\obj\Debug\net8.0\SubscriptionManager.API.pdb
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.API\obj\Debug\net8.0\SubscriptionManager.API.genruntimeconfig.cache
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.API\obj\Debug\net8.0\ref\SubscriptionManager.API.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.API\obj\Debug\net8.0\SubscriptionManager.API.sourcelink.json

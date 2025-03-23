@@ -15,3 +15,4 @@ C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.In
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\obj\Debug\net8.0\refint\SubscriptionManager.Infrastructure.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\obj\Debug\net8.0\SubscriptionManager.Infrastructure.pdb
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\obj\Debug\net8.0\ref\SubscriptionManager.Infrastructure.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\obj\Debug\net8.0\SubscriptionManager.Infrastructure.sourcelink.json

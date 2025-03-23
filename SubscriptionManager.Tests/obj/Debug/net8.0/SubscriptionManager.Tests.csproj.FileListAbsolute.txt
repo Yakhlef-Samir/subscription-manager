@@ -114,3 +114,4 @@ C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Te
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\SubscriptionManager.Tests.pdb
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\SubscriptionManager.Tests.genruntimeconfig.cache
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\ref\SubscriptionManager.Tests.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\SubscriptionManager.Tests.sourcelink.json
