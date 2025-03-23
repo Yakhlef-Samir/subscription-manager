@@ -1,0 +1,15 @@
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\bin\Debug\net8.0\subscriptionManager-Application.deps.json
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\bin\Debug\net8.0\subscriptionManager-Application.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\bin\Debug\net8.0\subscriptionManager-Application.pdb
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\bin\Debug\net8.0\SubscriptionManager.Domain.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\bin\Debug\net8.0\SubscriptionManager.Domain.pdb
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\subscriptionManager-Application.csproj.AssemblyReference.cache
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\subscriptionManager-Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\subscriptionManager-Application.AssemblyInfoInputs.cache
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\subscriptionManager-Application.AssemblyInfo.cs
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\subscriptionManager-Application.csproj.CoreCompileInputs.cache
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\subscrip.908DFDAB.Up2Date
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\subscriptionManager-Application.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\refint\subscriptionManager-Application.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\subscriptionManager-Application.pdb
+C:\Users\samir\RiderProjects\subscription-manager-backend\subscriptionManager-Application\obj\Debug\net8.0\ref\subscriptionManager-Application.dll
