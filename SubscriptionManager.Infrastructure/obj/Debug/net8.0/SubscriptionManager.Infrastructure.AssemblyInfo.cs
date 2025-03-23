@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubscriptionManager.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0557dfa65dc59bb1abcd75249c03bd26a1fd2bd4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44615e5b3176739b2955d8cf11ff684a3aa6880d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubscriptionManager.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubscriptionManager.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
