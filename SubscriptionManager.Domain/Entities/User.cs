@@ -15,18 +15,21 @@ public class User : BaseEntities
 
     public bool IsActive { get; set; }
 
+    public string [] Roles { get; set; } = null!;
+
     //** Navigation properties
     public ICollection<Subscription> Subscriptions { get; set; } = new List<Subscription>();
     public ICollection<Notification> Notifications { get; set; } = new List<Notification>();
 
     //** Constructeur paramétré
-    public User(string email, string userName, string displayName, string passwordHash, bool isActive)
+    public User(string email, string userName, string displayName, string passwordHash, bool isActive, string[] roles)
     {
         Email = email;
         UserName = userName;
         DisplayName = displayName;
         PasswordHash = passwordHash;
         IsActive = true;
+        Roles =  roles ;
     }
 
     //** Constructeur par défaut
