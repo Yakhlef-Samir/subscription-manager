@@ -18,9 +18,8 @@ public class MongoDbFixture : IDisposable
             .AddUserSecrets<MongoDbFixture>(optional: true)
             .Build();
 
-        var connectionString = "mongodb://localhost:27017";
+        const string connectionString = "mongodb://localhost:27017";
         _databaseName = "SubscriptionManagerTest";
-        //_databaseName = $"TestDB_{Guid.NewGuid()}";
 
 
         var clientSettings = MongoClientSettings.FromConnectionString(connectionString);

@@ -1,8 +1,8 @@
 using MongoDB.Driver;
 using subscription_Domain.Entities;
-using SubscriptionManager.Infrastructure.Data;
 using SubscriptionManager.Infrastructure.Repository;
 using SubscriptionManager.IntegrationTests.Fixtures;
+using SubscriptionManager.IntegrationTests.HelperExtensions;
 using Xunit;
 
 namespace SubscriptionManager.IntegrationTests.Repository;
@@ -16,15 +16,28 @@ public class UserRepositoryTests : IClassFixture<MongoDbFixture>, IDisposable
     public UserRepositoryTests(MongoDbFixture fixture)
     {
         _fixture = fixture;
-        _collection = _fixture.Database.GetCollection<User>("User"); 
+        _collection = _fixture.Database.GetCollection<User>("User");
         _userRepository = new UserRepository(_collection);
     }
 
     [Fact]
     public async Task Should_Create_User()
     {
-        // Arrange
-        var user = new User { Email = "pesso@pesso.com" };
+        await _collection.DeleteManyAsync(Builders<User>.Filter.Empty);
+
+        var user = new User
+        {
+            UserName = HelperExtension.GetRandomUsername(),
+            DisplayName = HelperExtension.GetRandomDisplayName(),
+            Email = HelperExtension.GetRandomEmail(),
+            IsActive = true,
+            PasswordHash = HelperExtension.GenerateRandomPassword(),
+            Roles = [HelperExtension.GetRandomRoles()],
+            Subscriptions = new List<Subscription>(),
+            Notifications = new List<Notification>(),
+            CreatedAt = new DateTime().Date,
+            UpdatedAt = new DateTime().Date,
+        };
 
         // Act
         await _userRepository.AddAsync(user);
@@ -34,6 +47,7 @@ public class UserRepositoryTests : IClassFixture<MongoDbFixture>, IDisposable
         Assert.NotNull(result);
         Assert.Equal(user.Email, result.Email);
     }
+
     void IDisposable.Dispose()
     {
         // Nettoyage de la collection après chaque test
