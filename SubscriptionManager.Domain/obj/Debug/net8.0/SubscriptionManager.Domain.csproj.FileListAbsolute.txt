@@ -1,13 +1,13 @@
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\bin\Debug\net8.0\SubscriptionManager.Domain.deps.json
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\bin\Debug\net8.0\SubscriptionManager.Domain.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\bin\Debug\net8.0\SubscriptionManager.Domain.pdb
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\SubscriptionManager.Domain.csproj.AssemblyReference.cache
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\SubscriptionManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\SubscriptionManager.Domain.AssemblyInfoInputs.cache
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\SubscriptionManager.Domain.AssemblyInfo.cs
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\SubscriptionManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\SubscriptionManager.Domain.sourcelink.json
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\SubscriptionManager.Domain.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\refint\SubscriptionManager.Domain.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\SubscriptionManager.Domain.pdb
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\ref\SubscriptionManager.Domain.dll
-C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\SubscriptionManager.Domain.sourcelink.json
-C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Domain\obj\Debug\net8.0\SubscriptionManager.Domain.csproj.AssemblyReference.cache

@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+#
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "subscriptionManager-Application", "subscriptionManager-Application\subscriptionManager-Application.csproj", "{C40DBD7C-E358-4AEE-97A7-6F3DB93A4DEF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionManager.Domain", "SubscriptionManager.Domain\SubscriptionManager.Domain.csproj", "{112B543F-CFE1-4018-AD62-B3CC721B2B67}"

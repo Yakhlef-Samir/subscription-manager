@@ -12,6 +12,10 @@ C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Te
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\SubscriptionManager.Tests.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\SubscriptionManager.Tests.pdb
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\DnsClient.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\EntityFramework.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
@@ -108,14 +112,10 @@ C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Te
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\SubscriptionManager.Tests.AssemblyInfoInputs.cache
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\SubscriptionManager.Tests.AssemblyInfo.cs
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\SubscriptionManager.Tests.csproj.CoreCompileInputs.cache
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\SubscriptionManager.Tests.sourcelink.json
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\Subscrip.A83299EE.Up2Date
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\SubscriptionManager.Tests.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\refint\SubscriptionManager.Tests.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\SubscriptionManager.Tests.pdb
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\SubscriptionManager.Tests.genruntimeconfig.cache
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\ref\SubscriptionManager.Tests.dll
-C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\obj\Debug\net8.0\SubscriptionManager.Tests.sourcelink.json
-C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
-C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Tests\bin\Debug\net8.0\Microsoft.AspNet.Identity.EntityFramework.dll

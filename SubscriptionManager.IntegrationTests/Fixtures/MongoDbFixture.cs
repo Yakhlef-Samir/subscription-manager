@@ -18,9 +18,9 @@ public class MongoDbFixture : IDisposable
             .AddUserSecrets<MongoDbFixture>(optional: true)
             .Build();
 
-        var connectionString = configuration.GetValue<string>("MongoSettings:ConnectionString");
-        _databaseName = configuration.GetValue<string>("MongoSettings:DatabaseName");
-        _databaseName = $"TestDB_{Guid.NewGuid()}";
+        var connectionString = "mongodb://localhost:27017";
+        _databaseName = "SubscriptionManagerTest";
+        //_databaseName = $"TestDB_{Guid.NewGuid()}";
 
 
         var clientSettings = MongoClientSettings.FromConnectionString(connectionString);
@@ -28,6 +28,7 @@ public class MongoDbFixture : IDisposable
 
         _client = new MongoClient(clientSettings);
         Database = _client.GetDatabase(_databaseName);
+
 
         Console.WriteLine($"Database used in test: {Database.DatabaseNamespace.DatabaseName}");
     }

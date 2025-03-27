@@ -3,6 +3,7 @@ using subscription_Domain.Entities;
 using SubscriptionManager.Infrastructure.Data;
 using SubscriptionManager.Infrastructure.Repository;
 using SubscriptionManager.IntegrationTests.Fixtures;
+using Xunit;
 
 namespace SubscriptionManager.IntegrationTests.Repository;
 
