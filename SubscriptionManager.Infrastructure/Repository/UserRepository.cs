@@ -16,6 +16,11 @@ public class UserRepository : IUserRepository
         _userCollection = context.Users;
     }
 
+    public UserRepository(IMongoCollection<User> users)
+    {
+        _userCollection = users;
+    }
+
     public async Task<User> GetByIdAsync(Guid id)
     {
         var filter = _filterBuilder.Eq(u => u.Id, id);
@@ -34,9 +39,10 @@ public class UserRepository : IUserRepository
     }
 
     public async Task AddAsync(User user)
-    {   user.CreatedAt = DateTime.UtcNow;
-        user.UpdatedAt = DateTime.UtcNow;
+    {
         await _userCollection.InsertOneAsync(user);
+        user.CreatedAt = DateTime.UtcNow;
+        user.UpdatedAt = DateTime.UtcNow;
     }
 
     public async Task UpdateAsync(User user)
@@ -45,7 +51,7 @@ public class UserRepository : IUserRepository
         user.UpdatedAt = DateTime.UtcNow;
         await _userCollection.ReplaceOneAsync(filter, user);
     }
-    
+
     public async Task DeleteAsync(Guid id)
     {
         var filter = _filterBuilder.Eq(u => u.Id, id);
