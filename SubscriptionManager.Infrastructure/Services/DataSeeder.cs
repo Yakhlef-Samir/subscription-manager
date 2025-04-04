@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.Identity;
+﻿
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using subscription_Domain.Entities;
@@ -9,9 +10,9 @@ namespace SubscriptionManager.Infrastructure.Services;
 public class DataSeeder
 {
     private readonly IMongoCollection<User> _userCollection;
-    private readonly IPasswordHasher _passwordHasher;
+    private readonly IPasswordHasher<User> _passwordHasher;
 
-    public DataSeeder(MongoDbContext database, IOptions<MongoSettings> mongoSettings, IPasswordHasher passwordHasher)
+    public DataSeeder(MongoDbContext database, IOptions<MongoSettings> mongoSettings, IPasswordHasher<User> passwordHasher)
     {
         _userCollection = database.Database.GetCollection<User>(mongoSettings.Value.UsersCollectionName);
         _passwordHasher = passwordHasher;
@@ -25,7 +26,6 @@ public class DataSeeder
             {
                 Email = "test@test.com",
                 UserName = "admin",
-                PasswordHash = _passwordHasher.HashPassword("admin"),
                 IsActive = true,
                 CreatedAt = DateTime.UtcNow,
                 UpdatedAt = DateTime.UtcNow,
@@ -36,13 +36,16 @@ public class DataSeeder
                 Email = "user@example.com",
                 UserName = "john.doe",
                 DisplayName = "John Doe",
-                PasswordHash = _passwordHasher.HashPassword("User123!"),
                 IsActive = true,
                 CreatedAt = DateTime.UtcNow,
                 UpdatedAt = DateTime.UtcNow,
                 Roles = ["User"]
             }
         };
+
+        // Ajout du hash de mot de passe après création des objets
+        users[0].PasswordHash = _passwordHasher.HashPassword(users[0], "admin");
+        users[1].PasswordHash = _passwordHasher.HashPassword(users[1], "password123");
 
         await _userCollection.InsertManyAsync(users);
     }

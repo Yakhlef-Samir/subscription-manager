@@ -1,6 +1,6 @@
 ﻿namespace subscription_Domain.Enums;
 
-public interface PaymentStatus
+public enum PaymentStatus
 {
     
 }

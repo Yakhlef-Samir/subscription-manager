@@ -1,9 +1,7 @@
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\bin\Debug\net8.0\SubscriptionManager.Infrastructure.deps.json
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\bin\Debug\net8.0\SubscriptionManager.Infrastructure.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\bin\Debug\net8.0\SubscriptionManager.Infrastructure.pdb
-C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\bin\Debug\net8.0\subscriptionManager-Application.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\bin\Debug\net8.0\SubscriptionManager.Domain.dll
-C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\bin\Debug\net8.0\subscriptionManager-Application.pdb
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\bin\Debug\net8.0\SubscriptionManager.Domain.pdb
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\obj\Debug\net8.0\SubscriptionManager.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\obj\Debug\net8.0\SubscriptionManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +14,7 @@ C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.In
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\obj\Debug\net8.0\refint\SubscriptionManager.Infrastructure.dll
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\obj\Debug\net8.0\SubscriptionManager.Infrastructure.pdb
 C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\obj\Debug\net8.0\ref\SubscriptionManager.Infrastructure.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\bin\Debug\net8.0\subscriptionManager.Application.dll
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\bin\Debug\net8.0\subscriptionManager.Application.pdb
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\bin\Debug\net8.0\SubscriptionManager.Infrastructure.runtimeconfig.json
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.Infrastructure\obj\Debug\net8.0\SubscriptionManager.Infrastructure.genruntimeconfig.cache

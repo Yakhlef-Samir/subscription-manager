@@ -1,6 +1,10 @@
 ﻿namespace subscription_Domain.Enums;
 
-public interface SubscriptionStatus
+public enum SubscriptionStatus
 {
-    
+    Active,
+    Inactive,
+    PendingCancellation,
+    Cancelled,
+    Expired
 }
