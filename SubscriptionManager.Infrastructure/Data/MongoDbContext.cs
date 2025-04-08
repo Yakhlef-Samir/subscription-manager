@@ -15,4 +15,6 @@ public class MongoDbContext
 
     public IMongoDatabase Database => _database;
     public IMongoCollection<User> Users => _database.GetCollection<User>(nameof(User));
+    public IMongoCollection<Subscription> Subscription => _database.GetCollection<Subscription>(nameof(Subscription));
+    public IMongoCollection<Category> Category => _database.GetCollection<Category>(nameof(Category));
 }
