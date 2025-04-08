@@ -1,0 +1,6 @@
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.IntegrationTests\obj\Debug\net6.0\SubscriptionManager.IntegrationTests.csproj.AssemblyReference.cache
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.IntegrationTests\obj\Debug\net6.0\SubscriptionManager.IntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.IntegrationTests\obj\Debug\net6.0\SubscriptionManager.IntegrationTests.AssemblyInfoInputs.cache
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.IntegrationTests\obj\Debug\net6.0\SubscriptionManager.IntegrationTests.AssemblyInfo.cs
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.IntegrationTests\obj\Debug\net6.0\SubscriptionManager.IntegrationTests.csproj.CoreCompileInputs.cache
+C:\Users\samir\RiderProjects\subscription-manager-backend\SubscriptionManager.IntegrationTests\obj\Debug\net6.0\SubscriptionManager.IntegrationTests.sourcelink.json

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="6.0.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="MongoDB.Driver" Version="2.20.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\subscriptionManager.Application\subscriptionManager.Application.csproj" />
+    <ProjectReference Include="..\SubscriptionManager.API\SubscriptionManager.API.csproj" />
+    <ProjectReference Include="..\SubscriptionManager.Domain\SubscriptionManager.Domain.csproj" />
+    <ProjectReference Include="..\SubscriptionManager.Infrastructure\SubscriptionManager.Infrastructure.csproj" />
+    <ProjectReference Include="..\SubscriptionManager.Tests\SubscriptionManager.Tests.csproj" />
+  </ItemGroup>
+</Project>
