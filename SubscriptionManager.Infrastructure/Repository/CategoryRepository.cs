@@ -10,7 +10,7 @@ public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
     private readonly IMongoCollection<Category> _categoryCollection;
     private readonly FilterDefinitionBuilder<Category> _categoryFilter = Builders<Category>.Filter;
 
-    private CategoryRepository(MongoDbContext context) : base(context, nameof(Category))
+    public CategoryRepository(MongoDbContext context) : base(context, nameof(Category))
     {
         _categoryCollection = context.Database.GetCollection<Category>(nameof(Category));
     }
