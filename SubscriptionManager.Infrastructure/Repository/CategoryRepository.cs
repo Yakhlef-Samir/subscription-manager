@@ -5,14 +5,13 @@ using SubscriptionManager.Infrastructure.Data;
 
 namespace SubscriptionManager.Infrastructure.Repository;
 
-public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
+public class CategoryRepository :  ICategoryRepository
 {
     private readonly IMongoCollection<Category> _categoryCollection;
     private readonly FilterDefinitionBuilder<Category> _categoryFilter = Builders<Category>.Filter;
-
-    public CategoryRepository(MongoDbContext context) : base(context, nameof(Category))
+    public CategoryRepository(IMongoCollection<Category> category) 
     {
-        _categoryCollection = context.Database.GetCollection<Category>(nameof(Category));
+        _categoryCollection = category;
     }
 
     public async Task<List<Category>> GetCategoryAllAsync()
@@ -46,7 +45,7 @@ public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
 
     public async Task<DeleteResult> DeleteCategoryAsync(Guid id)
     {
-        var filter =  _categoryFilter.Eq(c => c.Id, id);
+        var filter = _categoryFilter.Eq(c => c.Id, id);
         return await _categoryCollection.DeleteOneAsync(filter);
     }
 }

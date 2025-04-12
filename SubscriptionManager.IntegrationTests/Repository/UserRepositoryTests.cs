@@ -12,6 +12,7 @@ public class UserRepositoryTests : MongoDbFixture, IDisposable
     private readonly IMongoCollection<User> _collection;
     private readonly UserRepository _userRepository;
     private readonly MongoDbFixture _fixture;
+    private bool _disposed = false;
 
     public UserRepositoryTests(MongoDbFixture fixture)
     {
@@ -19,7 +20,6 @@ public class UserRepositoryTests : MongoDbFixture, IDisposable
         _collection = _fixture.Database.GetCollection<User>("User");
         _userRepository = new UserRepository(_collection);
     }
-
 
     public async Task Should_Create_User()
     {
@@ -35,8 +35,8 @@ public class UserRepositoryTests : MongoDbFixture, IDisposable
             Roles = [HelperExtension.GetRandomRoles()],
             Subscriptions = new List<Subscription>(),
             Notifications = new List<Notification>(),
-            CreatedAt = new DateTime().Date,
-            UpdatedAt = new DateTime().Date,
+            CreatedAt = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 0, 0, 0, DateTimeKind.Utc),
+            UpdatedAt = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 0, 0, 0, DateTimeKind.Utc),
         };
 
         // Act
@@ -48,9 +48,24 @@ public class UserRepositoryTests : MongoDbFixture, IDisposable
         Assert.Equals(user.Email, result.Email);
     }
 
-    void IDisposable.Dispose()
+    protected virtual void Dispose(bool disposing)
     {
-        // Nettoyage de la collection après chaque test
-        //_collection.DeleteMany(Builders<User>.Filter.Empty);
+        if (!_disposed)
+        {
+            if (disposing)
+            {
+                // Libérer les ressources managées ici
+                _collection.DeleteMany(Builders<User>.Filter.Empty);
+            }
+
+            _disposed = true;
+        }
     }
+
+    public new void Dispose()
+    {
+        Dispose(true);
+        GC.SuppressFinalize(this);
+    }
+
 }
