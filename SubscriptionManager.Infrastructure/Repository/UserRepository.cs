@@ -52,9 +52,10 @@ public class UserRepository : IUserRepository
         await _userCollection.ReplaceOneAsync(filter, user);
     }
 
-    public async Task DeleteAsync(Guid id)
+    public async Task DeleteAsync(User userId)
     {
-        var filter = _filterBuilder.Eq(u => u.Id, id);
+        var filter = _filterBuilder.Eq(u => u.Id, userId.Id);
         await _userCollection.DeleteOneAsync(filter);
     }
+
 }

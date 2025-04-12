@@ -34,7 +34,6 @@ public class SubscriptionController : ControllerBase
     public async Task<ActionResult<SubscriptionDto>> GetById(Guid id)
     {
         var subscription = await _subscriptionService.GetByIdAsync(id);
-        if (subscription == null) return NotFound();
         return Ok(subscription);
     }
 
